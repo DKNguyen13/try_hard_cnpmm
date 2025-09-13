@@ -9,8 +9,7 @@ const cors = require("cors");
 
 const app = express(); // cấu hình app là express
 
-// cấu hình port, nếu tìm thấy port trong env, không thì trả về 8888
-const port = process.env.PORT || 8888;
+const port = process.env.PORT || 8080;
 
 app.use(cors()); // config cors
 app.use(express.json()); // config req.body cho json
