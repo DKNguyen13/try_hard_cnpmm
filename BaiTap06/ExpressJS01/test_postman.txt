@@ -1,0 +1,30 @@
+Post
+http://localhost:8080/v1/api/categories
+{
+  "name": "Laptop",
+  "description": "Các dòng laptop cao cấp và phổ thông"
+}
+
+
+Post
+http://localhost:8080/v1/api/products
+{
+  "name": "Laptop Asus ROG",
+  "category": "64f6a9b7f7e2b1c23abc1234",
+  "brand": "Asus",
+  "cpu": "Intel i7",
+  "ram": "16GB",
+  "storage": "512GB SSD",
+  "gpu": "RTX 3060",
+  "screen": "15.6 inch FHD",
+  "price": 2500,
+  "quantity": 10,
+  "description": "Laptop gaming hiệu năng cao",
+  "imageUrl": "https://example.com/laptop1.png"
+}
+
+Get
+http://localhost:8080/v1/api/categories
+
+http://localhost:8080/v1/api/products?page=1&limit=5
+
