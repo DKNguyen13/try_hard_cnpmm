@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "0799722822",
+    "database": "baitap03",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "0799722822",
+    "database": "baitap03",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "0799722822",
+    "database": "baitap03",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
